@@ -1,0 +1,12 @@
+To run application
+- ng build
+- npm run scully -- --scanRoutes
+- For published blogs/posts, remove slug tag
+- npm run scully:serve
+
+To create blog mudule
+- ng g @scullyio/init:blog
+
+To generate posts
+- ng g @scullyio/init:post --name="<title>"
+- Set the folder as "blog"
